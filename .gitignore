@@ -1,0 +1,7 @@
+__pycache__
+output
+work_dirs
+checkpoints
+
+nohup.out
+*.code-workspace

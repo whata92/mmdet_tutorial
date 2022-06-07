@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Training",
+            "type": "python",
+            "request": "launch",
+            "program": "/workspace/mmdetection/tools/train.py",
+            "python": "/opt/conda/bin/python",
+            "cwd": "/workspace",
+            "console": "integratedTerminal",
+            "args": [
+                "configs/faster_rcnn/faster_rcnn_r50_fpn_1x_coco.py",
+            ]
+        }
+    ]
+}
